@@ -80,3 +80,12 @@ a:visited {
 a:hover{
 	color: maroon;
 }
+
+@media screen and (max-width: 500px) {
+  img {
+    width: 50%;
+  }
+
+@media screen and (max-width: 500px) {
+  body { font-size: 0.7em; 
+  }
