@@ -1,7 +1,19 @@
-body {
+#body-a {
 	color: silver;
 	background: black;
 	text-align: center;
+}
+
+#body-b {
+	color: silver;
+	background: black;
+	text-align: center;
+}
+
+#body-c {
+	background-image: url("jam_project_live.jpg");
+	color: blue;
+	font-weight: bold;
 }
 
 #header {
@@ -11,16 +23,21 @@ body {
 h1, h3, footer {
 	color: red;
 	font-family: "Georgia";	
+	text-align: center;
 }
 
 #navi {
 	background-color: silver;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+
+#members {
+	list-style-position: inside;
+	text-align: center;
+}
+
+.red {
+	color: red;
 }
 
 p::first-letter {
@@ -37,8 +54,10 @@ img {
 	width: 1100px;
 }
 
-table {
+#music-table {
     margin: 0 auto;
+    color: white;
+    font-weight: bold;
 }
 
 a:visited {
