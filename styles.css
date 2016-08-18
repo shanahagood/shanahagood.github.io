@@ -20,6 +20,10 @@
 	background-color: silver;
 }
 
+#welcome, #mission {
+	font-family: "Papyrus";
+}
+
 h1, h3, footer {
 	color: red;
 	font-family: "Georgia";	
@@ -34,10 +38,15 @@ h1, h3, footer {
 #members {
 	list-style-position: inside;
 	text-align: center;
+	font-family: "Papyrus";
 }
 
 .red {
 	color: red;
+}
+
+.blue {
+	color: blue;
 }
 
 p::first-letter {
@@ -56,10 +65,18 @@ img {
 
 #music-table {
     margin: 0 auto;
-    color: white;
+    color: red;
     font-weight: bold;
+    background-color: black;
 }
+a:link {
+	color: red;
+} 
 
 a:visited {
     color: blue;
+}
+
+a:hover{
+	color: maroon;
 }
